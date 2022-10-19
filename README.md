@@ -1,2 +1,0 @@
-# Oracle Cloud Infraestructure Foundations
-
