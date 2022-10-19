@@ -10,5 +10,12 @@ Conceptos básicos:
 
 * **Dominios de errores:** Es una agrupación de HW e infraestructura dentro de un _dominio de disponibilidad_ para proporcionar anti-afinidad. También conocidos como centros de datos lógicos.
 
+**Para elegir una región** 
+* 1) Elegir la región más cercana a los usuarios 
+     * Latencia baja
+     * Rendimiento alto
+* 2) Requisitos de residencia y conformidad de datos
+* 3) Disponibilidad del servicio
+
 ## Gestión de identidad y acceso 👥
 
