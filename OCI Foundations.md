@@ -2,7 +2,7 @@
 
 _Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230)_ **(OCI)**
 
-## Arquitectura OCI ⚙️
+## OCI Architecture ⚙️
 Conceptos básicos:
 * **Región:** Es un área localizada geográficamente que consta de uno o más _dominios de disponibilidad_.
 
@@ -17,5 +17,9 @@ Conceptos básicos:
 * 2) Requisitos de residencia y conformidad de datos
 * 3) Disponibilidad del servicio
 
-## Gestión de identidad y acceso 👥
+## Identity and Access Management 👥
+
+**IAM**
+
+
 
