@@ -1,9 +1,14 @@
 # Oracle Cloud Infraestructure Foundations ☁️
 
-_Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230)_ **(OCI)**
+_Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230)_ **(OCI)**.
 
-## OCI Architecture ⚙️
+Para acceder solo da clic en cualquier flecha.
+
+<details><summary> OCI Architecture ⚙️ </summary>
+
+
 Conceptos básicos:
+    
 * **Región:** Es un área localizada geográficamente que consta de uno o más _dominios de disponibilidad_.
 
 * **Dominios de disponibilidd:** (O medios de disponibilidad) Son uno o más _centros de datos tolerantes a fallos_ que se ubican dentro de _una región_ que se conectan entre sí por una red de banda ancha.
@@ -11,13 +16,15 @@ Conceptos básicos:
 * **Dominios de errores:** Es una agrupación de HW e infraestructura dentro de un _dominio de disponibilidad_ para proporcionar anti-afinidad. También conocidos como centros de datos lógicos.
 
 **Para elegir una región** 
-* 1) Elegir la región más cercana a los usuarios 
+ 1) Elegir la región más cercana a los usuarios 
      * Latencia baja
      * Rendimiento alto
-* 2) Requisitos de residencia y conformidad de datos
-* 3) Disponibilidad del servicio
+ 2) Requisitos de residencia y conformidad de datos
+ 3) Disponibilidad del servicio
+    
+</details>
 
-## Identity and Access Management 👥
+<details><summary> Identity and Access Management 👥 </summary>
 
 **IAM**
 
@@ -60,15 +67,21 @@ Un principal es una entidad de IAM que puede interactuar con recursos de OCI. Ex
 Tenancy Admin > OCI Admin > OCI-admin-groups > Policies > name-compartment
 
 Mejores prácticas:
-* 1) No usar la cuenta de admin de arrendamiento para operaciones diarias.
-* 2) Crear compartimentos dedicados para aislar recursos
-* 3) Aplicar el uso de la autenticación multifactor
+ 1) No usar la cuenta de admin de arrendamiento para operaciones diarias.
+ 2) Crear compartimentos dedicados para aislar recursos
+ 3) Aplicar el uso de la autenticación multifactor
 
-## Networking
+Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
+    
+![ ](imgOCI/OCI-create-policy.png)
+    
+</details>
+
+<details><summary> Networking 🌐📡  </summary>
 
 **VCN Introduction**
 
 
-
+</details>
 
 
