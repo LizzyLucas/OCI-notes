@@ -1,6 +1,6 @@
 # Oracle Cloud Infraestructure Foundations ☁️
 
-_Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230)_ **(OCI)**.
+Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230) **(OCI)**.
 
 
 <details><summary> OCI Architecture ⚙️ </summary>
@@ -66,9 +66,9 @@ Un principal es una entidad de IAM que puede interactuar con recursos de OCI. Ex
 Tenancy Admin > OCI Admin > OCI-admin-groups > Policies > name-compartment
 
 Mejores prácticas:
- 1) No usar la cuenta de admin de arrendamiento para operaciones diarias.
- 2) Crear compartimentos dedicados para aislar recursos
- 3) Aplicar el uso de la autenticación multifactor
+1) No usar la cuenta de admin de arrendamiento para operaciones diarias.
+2) Crear compartimentos dedicados para aislar recursos
+3) Aplicar el uso de la autenticación multifactor
 
 Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
     
@@ -82,9 +82,9 @@ Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
 
 Una _red virtual en la nube_ (Virtual Cloud Network - VCN) es una red privada definida por sw que se crea en Oracle Cloud.
     
-    * Se utiliza para la comunicación segura.
-    * Vive en una región de OCI. Se trata de un servicio regional.
-    * Tiene alta disponibilidad, escalabilidad y seguridad.
+* Se utiliza para la comunicación segura.
+* Vive en una región de OCI. Se trata de un servicio regional.
+* Tiene alta disponibilidad, escalabilidad y seguridad.
     
 Internet Gateway: Se trata de una puerta de enlace que permita una ampliación masiva, una alta disponibilidad y que se utiliza para la comunicación con cualquier elemento de Internet.
     
@@ -100,8 +100,8 @@ Consta de reglas que especifican el tipo de tráfico permitido dentro o fuera de
     
 Firewall rules:
     
-    1) Estas reglas pueden tener estado o no tener estado.
-    2) El tráfico pasa de la primera subred a la segunda subred.
+1) Estas reglas pueden tener estado o no tener estado.
+2) El tráfico pasa de la primera subred a la segunda subred.
     
 Grupos de seguridad de red o NSG: Se trata de una construcción muy similar como lista de seguridad, pero la diferencia clave es que se aplican sólo a un juego de tarjetas de interfaz de red virtual en una única VCN.
     
@@ -110,7 +110,7 @@ Los NSG pueden ser el origen o destino de las reglas.
 **Load Balancer**
     
 Equilibrador de carga en OCI. Se utiliza para lograr una alta disponibilidad y también para lograr escalabilidad.
-    
+
 a) También se conoce como proxi inverso.    
 b) Protege los distintos servidores backend.    
     
@@ -121,5 +121,35 @@ Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)
     
 </details>
 
-_Welcome contributions!_
+<details><summary> Compute  </summary>
+
+Instroducción al cómputo    
+    **Instance Basics**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+_**Welcome contributions!**_
 
