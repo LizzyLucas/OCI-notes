@@ -43,7 +43,30 @@ El compartimento raiz es una construcción lógica donde se pueden mantener todo
 
 * Se pueden crear compartimentos anadidos
 
+**AuthN and AuthZ**
 
+Un principal es una entidad de IAM que puede interactuar con recursos de OCI. Existen 2 tipos de principales:
+    * Los usuarios: Las personas que inician sesión en la consola de CLI o SDK, seres humanos que realmente utilizan los recursos en la nube.
+    * Los recursos
+
+* Autenticación o AuthN: Claves de firma de API (públicas y privadas), los tokens que son cadenas de token generadas por Oracle.
+
+* Autorización o AuthZ: Se ocupa de los permisos y de averiguar qué permisos tiene. En OCI se realiza mediante políticas de IAM. Las políticas se pueden asociar a un compartimento o se pueden asociar a un arrendamiento. 
+
+* Niveles de Verbs: Administrador/Manage, Uso/Use, Lectura/Read e Inspección/Inspect.
+
+**Tenancy Setup**
+
+Tenancy Admin > OCI Admin > OCI-admin-groups > Policies > name-compartment
+
+Mejores prácticas:
+* 1) No usar la cuenta de admin de arrendamiento para operaciones diarias.
+* 2) Crear compartimentos dedicados para aislar recursos
+* 3) Aplicar el uso de la autenticación multifactor
+
+## Networking
+
+**VCN Introduction**
 
 
 
