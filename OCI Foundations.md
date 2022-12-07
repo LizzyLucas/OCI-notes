@@ -2,7 +2,6 @@
 
 _Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230)_ **(OCI)**.
 
-Para acceder solo da clic en cualquier flecha.
 
 <details><summary> OCI Architecture ⚙️ </summary>
 
@@ -81,7 +80,46 @@ Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
 
 **VCN Introduction**
 
+Una _red virtual en la nube_ (Virtual Cloud Network - VCN) es una red privada definida por sw que se crea en Oracle Cloud.
+    
+    * Se utiliza para la comunicación segura.
+    * Vive en una región de OCI. Se trata de un servicio regional.
+    * Tiene alta disponibilidad, escalabilidad y seguridad.
+    
+Internet Gateway: Se trata de una puerta de enlace que permita una ampliación masiva, una alta disponibilidad y que se utiliza para la comunicación con cualquier elemento de Internet.
+    
+**VCN Routing**
+    
+Enrutamiento de OCI. La VCN utiliza _tablas de rutas_ para enviar tráfico fuera de la VCN a Internet, redes locales o a las VCN con intercambio de tráfico, y analiza cada uno de dichos escenarios.     
+    
+**VCN Security**
+    
+Lista de seguridad. Reglas de firewall asociadas a una subred y aplica a todas las instancias de la subred.
+    
+Consta de reglas que especifican el tipo de tráfico permitido dentro o fuera de la subred. Esto se aplica a una instancia determinada, tanto si si se está hablando con otra instancia VCN como un host fuera de la VCN.
+    
+Firewall rules:
+    
+    1) Estas reglas pueden tener estado o no tener estado.
+    2) El tráfico pasa de la primera subred a la segunda subred.
+    
+Grupos de seguridad de red o NSG: Se trata de una construcción muy similar como lista de seguridad, pero la diferencia clave es que se aplican sólo a un juego de tarjetas de interfaz de red virtual en una única VCN.
+    
+Los NSG pueden ser el origen o destino de las reglas.    
+    
+**Load Balancer**
+    
+Equilibrador de carga en OCI. Se utiliza para lograr una alta disponibilidad y también para lograr escalabilidad.
+    
+a) También se conoce como proxi inverso.    
+b) Protege los distintos servidores backend.    
+    
+La capa 7 significa que comprende HTTP y HTTPS en el modelo OSI.     
 
+Unidad flexible: Se define el mínimo y el máximo, se define el rango 
+Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)    
+    
 </details>
 
+_Welcome contributions!_
 
