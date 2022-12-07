@@ -21,5 +21,31 @@ Conceptos básicos:
 
 **IAM**
 
+Conocido como Control de Acceso Detallado o Servicio de Control de Acceso basado en roles.
+
+* AuthN: Autenticación > lidida con la identidad o _quién es alguien_
+
+* AuthZ: Autorización > lidia con el permiso o _lo que alguien puede hacer_
+
+* Dominios de identidad: Contenedor para usuarios de grupos 
+
+**Compartments**
+
+El compartimento raiz es una construcción lógica donde se pueden mantener todos los recursos en la nube.
+
+* Se crean para aislamiento y control de acceso
+
+* Cada recursp que se crea pertenece a un único compartimento
+
+* Se pueden escribir políticas para evitar que los usuarios accedan a recursos de una región específica.
+
+* Todos los compartimentos que se crean son globales y están disponibles en todas las regiones a las que se tenga acceso
+
+* Se pueden crear compartimentos anadidos
+
+
+
+
+
 
 
