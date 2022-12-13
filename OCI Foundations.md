@@ -3,8 +3,7 @@
 Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230) **(OCI)**.
 
 
-<details><summary> OCI Architecture ⚙️ </summary>
-
+<details><summary><h2> OCI Architecture ⚙️ </h2></summary>
 
 Conceptos básicos:
     
@@ -23,7 +22,7 @@ Conceptos básicos:
     
 </details>
 
-<details><summary> Identity and Access Management 👥 </summary>
+<details><summary><h2> Identity and Access Management 👥 <h/2></summary>
 
 **IAM**
 
@@ -76,7 +75,7 @@ Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
     
 </details>
 
-<details><summary> Networking 🌐📡  </summary>
+<details><summary><h2> Networking 🌐📡 <h/2></summary>
 
 **VCN Introduction**
 
@@ -121,10 +120,15 @@ Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)
     
 </details>
 
-<details><summary> Compute  </summary>
+<details><summary><h2> Compute 💻 </h2></summary>
 
-Instroducción al cómputo    
-    **Instance Basics**
+**Introducción al cómputo**
+    
+ Noción de unidad flexible: Significa que puede elegir su propio curso, procesadores de CPU y propi memoria. 
+    
+     * _Flexibilidad_ para una configuración propia.
+    
+**Instance Basics**
 
 
 
@@ -151,5 +155,5 @@ Instroducción al cómputo
 
 
 
-_**Welcome contributions!**_
+_**Welcome contributions!**_ :octocat:
 
