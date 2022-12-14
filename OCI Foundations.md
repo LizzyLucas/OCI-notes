@@ -126,34 +126,94 @@ Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)
     
  Noción de unidad flexible: Significa que puede elegir su propio curso, procesadores de CPU y propi memoria. 
     
-     * _Flexibilidad_ para una configuración propia.
+* _Flexibilidad_ para una configuración propia.
     
 **Instance Basics**
 
+Una instancia es el equivalente a _un host de recursos informáticos_.
+
+* Tiene dependencias
+
+Una región de Oracle está formada por varios dominios de disponibilidad.
+
+Un dominio de siponibilidad es un centro de datos
+
+La primera dependencia que tiene el servicio informático o los hosts informáticos es la red virtual en la nube
+
+Para poner en marcha una instancia informática se necesita una red virtual en la nube.
+
+Se deben crear subredes para poner en marcha un host de recursos informáticos.
+
+Las redes son una construcción virtual.
+
+Otro conjuntos de dpendencias que tienen las instancias informáticas:
+
+* Volúmen de inicio
+
+* Disco de inicio
+
+* Volúmenes en bloque
+
+**Migración en directo**
+
+La ideas es que si uno de los hosts de recursos informáticos cae, hay un problema, la máquina virtual migraria a otro host del centro de datos y será transparente para el usuario.
+
+**Cloud Shell**
+
+* La idea es que no necesita ninguna instlación local.
+
+* Puede usarse para ejecutar OCI-CLI u otras utilidades.
+
+**Scaling**
+
+Escalado o ampliación
+
+Escala vertical: Significa que está ampliando o reduciendo las unidades de instancia. Puede escalar el cursos, la memoria, y algunas de las otras características escalan en consecuencia.
+
+* Cuando se escala hacia arriba o hacia abajo, hay un tiempo de inactividad necesarios, porque va a otro host y eso requiere algún tiempo de inactividad.
+
+* Como _buena practica_ se debería detener la instancia antes de realizar cualquier tipo de ampliación vertical.
+
+Escala horizontal: o escala automática. Significa que agrega mas máquinas virtuales de la misma unidad o que toma un poco más de la misma unidad. 
+
+* Permite el despliegue a gran escala de máquinas virtuales. 
+
+Si una máquina virtual falla, otras pueden seguir trabajando.
+
+Puede hacer coincidir la demanda de tráfico agregando a la eliminación de las máquinas virtuales automáticamente.
+
+Pasos a seguir para obtener la escala automática:
+
+1) Tener una instancia en ejecución en la que se quiera realizar la escala automática > crear plantilla (configuración en terminología OCI) o un sello (características de imagen de SO, memoria, etc).
+
+2) Crear Pool de Instancia. Es la recopilación de esas instancias con antelación. Se pueden gestionar TODAS como UNA SOLA (se podría hacer todo al mismo tiempo). 
+
+3) Utilizar Pool de Instancias, escribir reglas, 
+
+Ventajas:
+
+* Ofrece una alta disponibilidad
+
+* Satisface la demanda de tráfico
 
 
+**OS Management Service**
 
+Gestión del Sistema Operativo
 
+Ayuda a los Sysadmins a automatizar la gestión de las instancias de Oracle Linux y Windows Server 
 
+Gestión automatizada de parches: Los parches se suelen publicar según sea necesario para corregir errores, mejorar el rendimiento o agregar nuevas funciones a los sistemas operativos. 
 
-
-
-
-
-
-
-
+Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y aliminar paquetes de software. 
 
 </details>
 
+<details><summary><h2> Storage 💻 </h2></summary>
 
+...
 
-
-
-
-
-
-
+</details>
 
 _**Welcome contributions!**_ :octocat:
 
