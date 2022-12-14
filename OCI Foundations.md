@@ -211,6 +211,17 @@ Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y alimi
 
 <details><summary><h2> Storage 💻 </h2></summary>
 
+La persistencia significa que los datos se almacenan de forma segura.
+
+La durabilidad significa realizar varias copias de los datos, replicando los datos 
+
+Conectividad
+
+Protocolo
+
+**Local NVMe**
+
+Dominio de disponibilidad que tiene un servidor de calculo y un alamacenamiento conectado localmente > almacenamiento con conexión local > unidades de estado sólido NVMe > ofrece cientos de miles de IOPS 
 ...
 
 </details>
