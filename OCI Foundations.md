@@ -346,11 +346,11 @@ OCI ofrece sistemas de BDs de nodo único tanto en máquinas virtuales como con 
     
 * Aprovisionar un sistemas de BD _Real Application Cluster_ de 2 nodos. El sistema asigna cada nodo a un dominio de errores diferente por lo que se puede proporcionar alta disponibilidad gestionada con ese cluster de 2 nodos.
 
-4) **EXADATA DB SYSTEMS - Managed Exadata Structured **
+4) **EXADATA DB SYSTEMS - Managed Exadata Structured**
     
 * Servicio que permite aprovechar el poder de Exadata en la nube. Las cargas de trabajo de Oracle tienen el mayor renimiento en ejecución en el servicio de _Exadata Cloud Service_. Se trata de una ampliación masiva.
     
-5) AUTONOMOUS SHARED & DEDICATED    
+5) **AUTONOMOUS SHARED & DEDICATED**    
     
 La BD Autonoma es una BD en la nube que utiliza el ML para automatizar el ajuste de la BD, la seguridad, las actualizaciones y otras tareas de gestión rutinarias que tradicionalmente realizan los _DBA_.
 
@@ -371,16 +371,34 @@ Términos de Exadata:
 2. Auto-protección
 3. Auto-reparación
     
-**🔥Autonomous DB🔥**
-
-    
-**🔥DB Systems🔥**
-
-    
 **🔥MySQL🔥**
     
+MySQL Database Cloud Service
+    
+**Alta disponibilidad:** Ofrece tolerancia extrema y tiene muchas ventajas, como la conmutación por error automática, el aumento del tiempo de actividad y la prérdida cero de datos. Se puede creara una BD en MySQL independiente o en OCI    
+   
+**HeatWave:** Es un nuevo acelerador de consultas en memoria integrado de alto rendimiento para MySQL Database Service que acelera el rendimiento de MySQL por orden de magnitud para consultas de transacciones y análisis. Escala a miles de núcleos. Es el único servicio en el mercado que permite a los admins de BD y devs de apps ejecutar cargas de trabajo OLTP y OLAP directamente desde MySQL database. Elimina la necesidad de movimientos e integraciíon de datos complejos, laboriosos y costosos con una base de datos anlítica independiente.
     
 **🔥NoSQL🔥**
+ 
+Características:
+    
+* Es elásticos
+* Tiene un alto rendimiento, latencia predecible en milisegundos 
+* Gran ancho de banda
+* Flexibilidades de modelos de datos
+* Obtiene seguridad empresarial
+* Se pueden gestionar todos los tipos de acceso
+* Costo operativo bajo
+* Facil para desarrolladore, tiene API Rest
+* Está disponible siempre
+* Ejecución nube híbrida
+
+Casos de uso de NoSQL Database Cloud:
+    
+* Apps móviles, IoT, Grand cantidad de volúmen
+    
+    
     
 ##
 
