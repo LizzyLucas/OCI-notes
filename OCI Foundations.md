@@ -86,9 +86,24 @@ Mejores prácticas:
 Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
     
 ![ ](imgOCI/OCI-create-policy.png)
+
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
     
 </details>
 
+    
 <details><summary><h2> Networking 🌐📡 <h/2></summary>
 
 📝 **VCN Introduction**
@@ -131,6 +146,20 @@ La capa 7 significa que comprende HTTP y HTTPS en el modelo OSI.
 
 Unidad flexible: Se define el mínimo y el máximo, se define el rango 
 Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)    
+ 
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
     
 </details>
 
@@ -237,6 +266,7 @@ Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y alimi
  ##
 </details>
 
+    
 <details><summary><h2> Storage 💾 💿  </h2></summary>
 
 🔆 La persistencia significa que los datos se almacenan de forma segura.
@@ -250,8 +280,38 @@ Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y alimi
 📎 **Local NVMe**
 
 Dominio de disponibilidad que tiene un servidor de calculo y un alamacenamiento conectado localmente > almacenamiento con conexión local > unidades de estado sólido NVMe > ofrece cientos de miles de IOPS 
-...
 
+    
+📎 **File Storage**
+
+El almacenamiento de archivos es una recopilación jerárquica de documentos organizados en directorios de nombres.
+    
+En la nube se tienen sistemas distribuidos 
+    
+Casos de usos de File Storage:
+    
+* Aplicaciones empresariales que requieren almacenamiento compartido de archivos. Así lo proporciona el servicio de almacenamiento de archivos. 
+    
+* Sistemas de archivos de propósito general.
+    
+* Microservicios y contenedores que normalmente no tienen estados.
+    
+* HPC, Aplicaciones escalables, análisis, etc.
+
+📌 Overview of [File Storage](https://docs.oracle.com/en-us/iaas/Content/File/Concepts/filestorageoverview.htm#concepts).
+    
+📎 **Migration Services**   
+    
+Migración de datos en OCI
+    
+_Estado offline:_ Los servidores y datos residen en los centros de datos 
+
+a) Discos de transferencia de datos
+    
+b) Dispositivo de transferencia de datos (para enviar grandes cantidades de datos)
+    
+_Transferencia online:_ Se tiene un servicio llamado Storage Gateway en Linux > se coloca en el centro de datos > puede transferir los datos mediante la red de área extensa 
+    
 ##
 
 **A considerar:** 💡
