@@ -1,11 +1,11 @@
 # Oracle Cloud Infraestructure Foundations ☁️
 
-Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230) **(OCI)**.
+Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácticas referentes al curso [Oracle Cloud Infraestructure Foundations](https://mylearn.oracle.com/component/-/108432/166230) **(OCI)**. :shipit: 
 
 
 <details><summary><h2> OCI Architecture ⚙️ </h2></summary>
 
-Conceptos básicos:
+♦️ Conceptos básicos:
     
 * **Región:** Es un área localizada geográficamente que consta de uno o más _dominios de disponibilidad_.
 
@@ -13,18 +13,32 @@ Conceptos básicos:
 
 * **Dominios de errores:** Es una agrupación de HW e infraestructura dentro de un _dominio de disponibilidad_ para proporcionar anti-afinidad. También conocidos como centros de datos lógicos.
 
-**Para elegir una región** 
+♦️ **Para elegir una región** 
  1) Elegir la región más cercana a los usuarios 
      * Latencia baja
      * Rendimiento alto
  2) Requisitos de residencia y conformidad de datos
  3) Disponibilidad del servicio
     
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
+    
 </details>
 
 <details><summary><h2> Identity and Access Management 👥 <h/2></summary>
 
-**IAM**
+📝 **IAM**
 
 Conocido como Control de Acceso Detallado o Servicio de Control de Acceso basado en roles.
 
@@ -34,7 +48,7 @@ Conocido como Control de Acceso Detallado o Servicio de Control de Acceso basado
 
 * Dominios de identidad: Contenedor para usuarios de grupos 
 
-**Compartments**
+📝 **Compartments**
 
 El compartimento raiz es una construcción lógica donde se pueden mantener todos los recursos en la nube.
 
@@ -48,7 +62,7 @@ El compartimento raiz es una construcción lógica donde se pueden mantener todo
 
 * Se pueden crear compartimentos anadidos
 
-**AuthN and AuthZ**
+📝 **AuthN and AuthZ**
 
 Un principal es una entidad de IAM que puede interactuar con recursos de OCI. Existen 2 tipos de principales:
     * Los usuarios: Las personas que inician sesión en la consola de CLI o SDK, seres humanos que realmente utilizan los recursos en la nube.
@@ -60,7 +74,7 @@ Un principal es una entidad de IAM que puede interactuar con recursos de OCI. Ex
 
 * Niveles de Verbs: Administrador/Manage, Uso/Use, Lectura/Read e Inspección/Inspect.
 
-**Tenancy Setup**
+📝 **Tenancy Setup**
 
 Tenancy Admin > OCI Admin > OCI-admin-groups > Policies > name-compartment
 
@@ -77,7 +91,7 @@ Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
 
 <details><summary><h2> Networking 🌐📡 <h/2></summary>
 
-**VCN Introduction**
+📝 **VCN Introduction**
 
 Una _red virtual en la nube_ (Virtual Cloud Network - VCN) es una red privada definida por sw que se crea en Oracle Cloud.
     
@@ -87,11 +101,11 @@ Una _red virtual en la nube_ (Virtual Cloud Network - VCN) es una red privada de
     
 Internet Gateway: Se trata de una puerta de enlace que permita una ampliación masiva, una alta disponibilidad y que se utiliza para la comunicación con cualquier elemento de Internet.
     
-**VCN Routing**
+📝 **VCN Routing**
     
 Enrutamiento de OCI. La VCN utiliza _tablas de rutas_ para enviar tráfico fuera de la VCN a Internet, redes locales o a las VCN con intercambio de tráfico, y analiza cada uno de dichos escenarios.     
     
-**VCN Security**
+📝 **VCN Security**
     
 Lista de seguridad. Reglas de firewall asociadas a una subred y aplica a todas las instancias de la subred.
     
@@ -106,7 +120,7 @@ Grupos de seguridad de red o NSG: Se trata de una construcción muy similar como
     
 Los NSG pueden ser el origen o destino de las reglas.    
     
-**Load Balancer**
+📝**Load Balancer**
     
 Equilibrador de carga en OCI. Se utiliza para lograr una alta disponibilidad y también para lograr escalabilidad.
 
@@ -120,33 +134,34 @@ Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)
     
 </details>
 
+    
 <details><summary><h2> Compute 💻 </h2></summary>
 
-**Introducción al cómputo**
+📢 **Introducción al cómputo**
     
  Noción de unidad flexible: Significa que puede elegir su propio curso, procesadores de CPU y propi memoria. 
     
 * _Flexibilidad_ para una configuración propia.
     
-**Instance Basics**
+📢 **Instance Basics**
 
 Una instancia es el equivalente a _un host de recursos informáticos_.
 
 * Tiene dependencias
 
-Una región de Oracle está formada por varios dominios de disponibilidad.
+📌 Una región de Oracle está formada por varios dominios de disponibilidad.
 
-Un dominio de siponibilidad es un centro de datos
+📌 Un dominio de siponibilidad es un centro de datos
 
-La primera dependencia que tiene el servicio informático o los hosts informáticos es la red virtual en la nube
+📌 La primera dependencia que tiene el servicio informático o los hosts informáticos es la red virtual en la nube
 
-Para poner en marcha una instancia informática se necesita una red virtual en la nube.
+📌 Para poner en marcha una instancia informática se necesita una red virtual en la nube.
 
-Se deben crear subredes para poner en marcha un host de recursos informáticos.
+📌 Se deben crear subredes para poner en marcha un host de recursos informáticos.
 
-Las redes son una construcción virtual.
+📌 Las redes son una construcción virtual.
 
-Otro conjuntos de dpendencias que tienen las instancias informáticas:
+📌 Otro conjuntos de dpendencias que tienen las instancias informáticas:
 
 * Volúmen de inicio
 
@@ -156,15 +171,15 @@ Otro conjuntos de dpendencias que tienen las instancias informáticas:
 
 **Migración en directo**
 
-La ideas es que si uno de los hosts de recursos informáticos cae, hay un problema, la máquina virtual migraria a otro host del centro de datos y será transparente para el usuario.
+📌 La ideas es que si uno de los hosts de recursos informáticos cae, hay un problema, la máquina virtual migraria a otro host del centro de datos y será transparente para el usuario.
 
-**Cloud Shell**
+📢 **Cloud Shell**
 
 * La idea es que no necesita ninguna instlación local.
 
 * Puede usarse para ejecutar OCI-CLI u otras utilidades.
 
-**Scaling**
+📢 **Scaling**
 
 Escalado o ampliación
 
@@ -178,11 +193,11 @@ Escala horizontal: o escala automática. Significa que agrega mas máquinas virt
 
 * Permite el despliegue a gran escala de máquinas virtuales. 
 
-Si una máquina virtual falla, otras pueden seguir trabajando.
+📌 Si una máquina virtual falla, otras pueden seguir trabajando.
 
-Puede hacer coincidir la demanda de tráfico agregando a la eliminación de las máquinas virtuales automáticamente.
+📌 Puede hacer coincidir la demanda de tráfico agregando a la eliminación de las máquinas virtuales automáticamente.
 
-Pasos a seguir para obtener la escala automática:
+📌 Pasos a seguir para obtener la escala automática:
 
 1) Tener una instancia en ejecución en la que se quiera realizar la escala automática > crear plantilla (configuración en terminología OCI) o un sello (características de imagen de SO, memoria, etc).
 
@@ -190,14 +205,14 @@ Pasos a seguir para obtener la escala automática:
 
 3) Utilizar Pool de Instancias, escribir reglas, 
 
-Ventajas:
+📌 Ventajas:
 
 * Ofrece una alta disponibilidad
 
 * Satisface la demanda de tráfico
 
 
-**OS Management Service**
+📢 **OS Management Service**
 
 Gestión del Sistema Operativo
 
@@ -207,23 +222,100 @@ Gestión automatizada de parches: Los parches se suelen publicar según sea nece
 
 Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y aliminar paquetes de software. 
 
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
 </details>
 
-<details><summary><h2> Storage 💻 </h2></summary>
+<details><summary><h2> Storage 💾 💿  </h2></summary>
 
-La persistencia significa que los datos se almacenan de forma segura.
+🔆 La persistencia significa que los datos se almacenan de forma segura.
 
-La durabilidad significa realizar varias copias de los datos, replicando los datos 
+🔆 La durabilidad significa realizar varias copias de los datos, replicando los datos 
 
-Conectividad
+🔆 Conectividad
 
-Protocolo
+🔆 Protocolo
 
-**Local NVMe**
+📎 **Local NVMe**
 
 Dominio de disponibilidad que tiene un servidor de calculo y un alamacenamiento conectado localmente > almacenamiento con conexión local > unidades de estado sólido NVMe > ofrece cientos de miles de IOPS 
 ...
 
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
+</details>
+    
+    
+<details><summary><h2> Database 🔎 </h2></summary>
+
+**Database Instroduction 🔥**
+
+    
+**Autonomous DB**
+
+    
+**DB Systems**
+
+    
+**MySQL**
+    
+    
+**NoSQL**
+    
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##    
+
+
+</details>
+    
+<details><summary><h2> App Dev </h2></summary>
+
+##
+
+**A considerar:** 💡
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ ##
 </details>
 
 _**Welcome contributions!**_ :octocat:
