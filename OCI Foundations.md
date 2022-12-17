@@ -330,19 +330,57 @@ _Transferencia online:_ Se tiene un servicio llamado Storage Gateway en Linux > 
     
 <details><summary><h2> Database 🔎 </h2></summary>
 
-**Database Instroduction 🔥**
+**🔥Database Introduction 🔥**
+
+OCI ofrece sistemas de BDs de nodo único tanto en máquinas virtuales como con hw dedicado, y sistemas de BDs de cluster de aplicación real de 2 nodos en máquinas virtuales. 
+    
+1) **VIRTUAL MACHINE (VM BD System) - Fast Provisioning**
+    
+* Sistemas de BD de MV de 1 nodo: OCI proporciona una opción de aprovisionamiento rápido que permite crear los sistemas de BD utilizando algo denominado _gestor de volúmenes lógicos como capa de gestión de almacenamiento._ La alternativa se denomina _aprovisionamiento estándar_ y se aprovisiona con Oracle Automatic Storage Management, también conocido como **ASM**. PROPORCIONA TIEMPOS DE APROVISIONAMIENTO RÁPIDOS.
+
+2) **BARE METAL ( BM DB Systems) - Fast Performance**
+    
+* OCI tiene un sistema de BD con hw dedicado que consta de un único servidor con hw dedicado que ejecuta Oracle. Si este nodo único falla, es suficiente con iniciar otro sistema y restaurar la BD a partir de las copias de seguridad actuales. 
+    
+3) **RAC - Managed High Availability**
+    
+* Aprovisionar un sistemas de BD _Real Application Cluster_ de 2 nodos. El sistema asigna cada nodo a un dominio de errores diferente por lo que se puede proporcionar alta disponibilidad gestionada con ese cluster de 2 nodos.
+
+4) **EXADATA DB SYSTEMS - Managed Exadata Structured **
+    
+* Servicio que permite aprovechar el poder de Exadata en la nube. Las cargas de trabajo de Oracle tienen el mayor renimiento en ejecución en el servicio de _Exadata Cloud Service_. Se trata de una ampliación masiva.
+    
+5) AUTONOMOUS SHARED & DEDICATED    
+    
+La BD Autonoma es una BD en la nube que utiliza el ML para automatizar el ajuste de la BD, la seguridad, las actualizaciones y otras tareas de gestión rutinarias que tradicionalmente realizan los _DBA_.
+
+Existen 2 tipos de cargas de trabajo soportadas:
+    
+* _Autonomous Data Warehouse - ADW_   
+* _Autonomous Transaction Processing - ATP_
+    
+Existen 2 tipos de modelos de desplieugue:
+    
+* _Modelo de desplieugue compartido:_ Se puede aprovisionar y gestionar solo la BD Autónoma mientras que Oracle gestiona el desplieugue y la gestión de la insfraestructura de Exadata
+    
+* _Modelo de despliegue dedicado:_ Tiene el uso exclusico del hw de Exadata que se ejecuta a continuación. 
+    
+Términos de Exadata:
+    
+1. Auto-gestión
+2. Auto-protección
+3. Auto-reparación
+    
+**🔥Autonomous DB🔥**
 
     
-**Autonomous DB**
+**🔥DB Systems🔥**
 
     
-**DB Systems**
-
-    
-**MySQL**
+**🔥MySQL🔥**
     
     
-**NoSQL**
+**🔥NoSQL🔥**
     
 ##
 
