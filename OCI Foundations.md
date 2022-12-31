@@ -20,20 +20,7 @@ Dentro de este repositorio podrán encontrarse notas, recursos extra y/o prácti
  2) Requisitos de residencia y conformidad de datos
  3) Disponibilidad del servicio
     
-##
 
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##
-    
 </details>
 
 <details><summary><h2> Identity and Access Management 👥 <h/2></summary>
@@ -86,20 +73,6 @@ Mejores prácticas:
 Ejemplo para otorgar permisos de admin a un grupo de administradores de OCI:
     
 ![ ](imgOCI/OCI-create-policy.png)
-
-##
-
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##
     
 </details>
 
@@ -146,20 +119,6 @@ La capa 7 significa que comprende HTTP y HTTPS en el modelo OSI.
 
 Unidad flexible: Se define el mínimo y el máximo, se define el rango 
 Forma dinámica: Se predefinen las unidades (micro, pequeño, mediano, grande)    
- 
-##
-
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##
     
 </details>
 
@@ -251,19 +210,6 @@ Gestión automatizada de parches: Los parches se suelen publicar según sea nece
 
 Gestión simplificada de paquetes: Consiste en instalar, aplicar parches y aliminar paquetes de software. 
 
-##
-
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##
 </details>
 
     
@@ -311,20 +257,7 @@ a) Discos de transferencia de datos
 b) Dispositivo de transferencia de datos (para enviar grandes cantidades de datos)
     
 _Transferencia online:_ Se tiene un servicio llamado Storage Gateway en Linux > se coloca en el centro de datos > puede transferir los datos mediante la red de área extensa 
-    
-##
 
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##
 </details>
     
     
@@ -398,27 +331,10 @@ Casos de uso de NoSQL Database Cloud:
     
 * Apps móviles, IoT, Grand cantidad de volúmen
     
-    
-    
-##
-
-**A considerar:** 💡
-    
- 📍
-    
- 📍
-    
- 📍
-    
- 📍
-    
- ##    
-
 
 </details>
     
-<details><summary><h2> App Dev </h2></summary>
-
+<details><summary><h2> Repaso </h2></summary>
 ##
 
 **A considerar:** 💡
@@ -431,7 +347,92 @@ Casos de uso de NoSQL Database Cloud:
     
  📍
     
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
+    📍
+    
+ 📍
+    
+ 📍
+    
+ 📍
  ##
+    
 </details>
 
 _**Welcome contributions!**_ :octocat:
